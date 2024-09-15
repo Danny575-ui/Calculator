@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 320px;
+}
+
+main {
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+#result,
+#connect {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Flex Container Styles */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.num {
+  background-color: #fafafa;
+}
+
+.op {
+  background-color: #e0e0e0;
+}
+
+.ac {
+  background-color: #ff6f6f;
+  color: white;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

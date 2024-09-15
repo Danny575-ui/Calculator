@@ -1,79 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ROCK-PAPER-SCISSORS</title>
-    <meta chartset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK-PAPER-SCISSORS</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <div class="inner">
+    <div class="container">
       <main>
         <h1>CALCULATOR</h1>
         <h2>GO!!</h2>
-		<p id="result"></p>
+        <p id="result"></p>
 
-        <script src="script.js"></script>
-		
         <div class="flex-container">
-		  	
-          <div class="num">
-            <button type="button" onclick="clickedOne()">1</button>
-          </div>
-          <div class="num">
-            <button type="button" onclick="clickedTwo()">2</button>
-          </div>
-          <div class="num">
-            <button type="button" onclick="clickedThree()">3</button>
-          </div>
-		  <div class="num"></div>
-            <button type="button" onclick="clickedFour()">4</button>
-          </div>
-		  <div class="num"></div>
-            <button type="button" onclick="clickedFive()">5</button>
-          </div>
-		  <div class="num"></div>
-            <button type="button" onclick="clickedSix()">6</button>
-          </div>
-		  <div class="num"></div>
-            <button type="button" onclick="clickedSeven()">7</button>
-          </div>
-		  <div class="num"></div>
-            <button type="button" onclick="clickedEight()">8</button>
-          </div>
-		  <div class="num"></div>
-            <button type="button" onclick="clickedNine()">9</button>
-          </div>
-		  <div class="num"></div>
-            <button type="button" onclick="clickedZero()">0</button>
-          </div>
-		  <div class="op"></div>
-            <button type="button" onclick="clickedPlus()">+</button>
-          </div>
-		  <div class="op"></div>
-            <button type="button" onclick="clickedMinus()">-</button>
-          </div>
-		  <div class="op"></div>
-            <button type="button" onclick="clickedMult()">*</button>
-          </div>
-		  <div class="op"></div>
-            <button type="button" onclick="clickedDiv()">/</button>
-          </div>
-		  <div class="op"></div>
-            <button type="button" onclick="clickedEqualto()">=</button>
-          </div>
-		  <div class="ac"></div>
-            <button type="button" onclick="clickedAllclear()">AC</button>
-          </div>
+          <div class="button num" onclick="clickedOne()">1</div>
+          <div class="button num" onclick="clickedTwo()">2</div>
+          <div class="button num" onclick="clickedThree()">3</div>
+          <div class="button num" onclick="clickedFour()">4</div>
+          <div class="button num" onclick="clickedFive()">5</div>
+          <div class="button num" onclick="clickedSix()">6</div>
+          <div class="button num" onclick="clickedSeven()">7</div>
+          <div class="button num" onclick="clickedEight()">8</div>
+          <div class="button num" onclick="clickedNine()">9</div>
+          <div class="button num" onclick="clickedZero()">0</div>
 
-
-
-
-
+          <div class="button op" onclick="clickedPlus()">+</div>
+          <div class="button op" onclick="clickedMinus()">-</div>
+          <div class="button op" onclick="clickedMult()">*</div>
+          <div class="button op" onclick="clickedDiv()">/</div>
+          <div class="button op" onclick="clickedEqualto()">=</div>
+          <div class="button ac" onclick="clickedAllclear()">AC</div>
         </div>
-
-        
       </main>
 
       <footer>
@@ -84,5 +42,6 @@
         </p>
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
